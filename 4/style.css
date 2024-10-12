@@ -1,0 +1,124 @@
+html,
+body {
+    background-color: #f8eee7;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3em;
+}
+
+a {
+    text-decoration: none;
+    color: #011562;
+}
+
+a:hover {
+    color: #89B9BA;
+}
+
+/* INDEX STYLES */
+
+.main-header {
+    text-align: center;
+    background-color: #EFB4A6;
+    border-radius: 8px;
+    margin: 50px auto;
+    padding: 50px 100px 100px 100px;
+    width: 50%;
+    background-image: url("img/ella-olsson-7EhPbdAQG-s-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.main-h1,
+.main-p {
+    text-shadow: 2px 2px rgb(0, 0, 0, 1);
+    color: #89B9BA;
+}
+
+.main-section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 30px 5px rgb(0, 0, 0, 0.15);
+    text-align: center;
+    margin: 50px;
+}
+
+
+
+/* 
+pastel palette
+#f8eee7 tan
+#EEA09E pink
+#395E88 navy blue
+#837F95 purple
+#89B9BA green
+*/
+
+
+/*
+#EFB4A6 pink
+#011562 navy blue
+#837F95 purple
+#42ADB9 green
+*/
+
+/* RECIPE STYLE */
+
+.recipe-header {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+
+.hero-thanksgiving-img {
+    background-image: url("img/priscilla-du-preez-0KMpOEdqkJE-unsplash.jpg");
+}
+.hero-newyears-img {
+    background-image: url("img/christina-rumpf-qjh-BCHbHis-unsplash.jpg");
+}
+
+.hero-christmas-img {
+    background-image: url("img/tolga-ahmetler-Wq8z8MCItu0-unsplash.jpg");
+}
+
+.recipe-h1 {
+    padding: 50px;
+    margin: 0;
+    color: #f8eee7;
+}
+
+.recipe-card {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.description {
+    display: block;
+}
+
+.directions {
+    width: 50%;
+    margin: 30px;
+}
+
+.container {
+    text-align: center;
+}
+
+ul,
+ol {
+    text-align: left;
+}
