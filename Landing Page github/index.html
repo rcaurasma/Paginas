@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Diseño y Desarrollo de Software</title>
+    <style>
+        body {
+            background: #f0f0f0;
+            font-family: 'Open Sans', sans-serif;
+            color: #212529;
+            margin: 0;
+        }
+        .header, .footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .header a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .content-container {
+            padding: 20px;
+        }
+        .title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .text {
+            font-size: 16px;
+        }
+        .info-title {
+            font-size: 20px;
+            font-weight: semibold;
+        }
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>PROYECTOS</div>
+        <div>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#sobre-nosotros">Sobre Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </div>
+
+    <div class="content-container">    
+        <div class="title">Bienvenido a PROYECTO</div>
+        <div class="text">Soluciones de diseño y desarrollo de software a medida. ¡Únete a nosotros y transforma tus ideas en realidad!</div>
+
+        <div class="info-title">Servicios Ofrecidos</div>
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/DisenoWeb.jpg" alt="Diseño Web">
+                <div>Diseño Web</div>
+            </div>    
+            <div class="card">
+                <img src="./images/DesSoft.jpg" alt="Desarrollo de Software">
+                <div>Desarrollo de Software</div>
+            </div> 
+            <div class="card">
+                <img src="./images/AppMoviles.jpg" alt="Aplicaciones Móviles">
+                <div>Aplicaciones Móviles</div>
+            </div>     
+            <div class="card">
+                <img src="./images/ux ui.png" alt="UX/UI Design">
+                <div>Diseño UX y UI</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 Agencia de Diseño y Desarrollo de Software. Todos los derechos reservados.</p>
+    </div>
+</body>
+</html>
